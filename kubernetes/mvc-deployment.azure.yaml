@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mvc
-        image: mabrar/product-store-mvc:v2.#{Build.BuildId}#
+        image: mabrar/product-store-mvc.#{Build.BuildId}#
         ports:
         - containerPort: 80
         resources:
